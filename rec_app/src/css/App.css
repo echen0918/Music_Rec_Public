@@ -1,0 +1,41 @@
+* {font-family: Montserrat, sans-serif ;}
+
+.App {
+  text-align: center;
+  background:rgb(248,248,248);
+  height:100%;
+  width:100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: rgb(230,230,230);    
+  color: #111111;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.yt:hover{
+    color: rgb(230,230,230);
+    background-color: #FF0000!important;
+    transition: all 0.2s ease;
+}
+
+.yt.active{
+    color: rgb(230,230,230);
+    transition: all 0.2s ease;
+    background-color: #c30000!important;
+}

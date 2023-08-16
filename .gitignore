@@ -1,0 +1,12 @@
+.DS_Store
+/*.zip
+/data
+*/__pycache__
+!/.env
+**.env
+**.pyc
+**.log
+**.firebaserc
+**/node_modules
+**.json
+**.rules

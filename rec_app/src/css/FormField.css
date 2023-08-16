@@ -1,0 +1,81 @@
+.songformfield{
+    display:flex;
+    flex-direction: row;
+    width:800px;
+    margin: auto;
+    margin-top:0px;
+    box-sizing: border-box;
+}
+#explain{
+    margin: 1em 0;
+}
+.songformfield > input{
+    height: 37px;
+    padding: 0;
+    margin: 0 auto;
+    margin-right: 2em;
+    padding-left:4px;
+    border-radius:10px;
+    border-width:2px;
+    border-color:rgb(220,220,220);
+}
+.genreSelect{
+    width:100%;
+    margin-right:2em;
+}
+.songformfield > button{
+    padding: 4px 8px;
+    border-radius:10px;
+    border-color:#191414;
+    border-width:2px;
+    width:5em;
+    height:37px;
+    margin:0 auto;
+    background-color: #191414;
+    color: 	#ededed;
+    font-size:18px;
+    font-weight:bold;
+    text-rendering: optimizeLegibility;
+    transition: all 0.2s ease;
+}
+.songformfield > button:hover{
+    color:#191414;
+    background-color: #ededed;
+    border-color:#ededed;
+    transition: all 0.2s ease;
+}
+.formdiv{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    height:100%;
+}
+.inputdiv{
+    display:flex;
+    height:50%;
+}
+#formtitle{
+    font-size: 48px;
+    text-align:center;
+    margin-top:auto;
+    margin-bottom: 0;
+}
+
+
+.remixformfield{
+    width:500px;
+}
+
+.remixformfield > input{
+    height: 37px;
+    padding: 0;
+    margin: 0em 10px;
+    padding-left:4px;
+    border-radius:10px;
+    border-width:2px;
+    border-color:rgb(220,220,220);
+}
+
+.remixformfield > button{
+    margin-left: 0px;
+}

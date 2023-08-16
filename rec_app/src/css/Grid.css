@@ -1,0 +1,39 @@
+
+.row, .col{
+    margin: 0em;
+    padding: 0em;
+}
+.master-row {
+    display:flex;
+    height:100%;
+    width:100%;
+    flex-direction: column;
+}
+/*
+Page halves
+*/
+.halfPageRow{
+    display:flex;
+    flex-direction: column;
+    margin:0em;
+    padding:0em;
+    height:100%;
+}
+.topPlaylist{
+    height:30vh;
+}
+.bottomPlaylist{
+    height: calc(70vh - 70px)
+}
+
+.recContentContainer{
+    height:100%;
+}
+.masterRowContainer{
+    display:flex;
+    flex-direction: column;
+    margin:0em;
+    padding:0em;
+    width:100%;
+    height:calc(100vh - 70px);
+}
